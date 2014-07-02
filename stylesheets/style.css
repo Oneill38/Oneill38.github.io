@@ -162,3 +162,21 @@ a:hover {
   margin-left: 5px;
 }
 
+@media only screen and (max-width: 840px){
+
+#header li {
+  display: block;
+}
+
+#header ul{
+  display: absolute;
+  right: 5%;
+  top: 0;
+  padding-bottom: 10px;
+}
+
+#myInfo {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
