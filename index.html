@@ -3,79 +3,44 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheets/style.css">
-    <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,400' rel='stylesheet' type='text/css'>
     <title>Megan O'Neill</title>
   </head>
   <body>
-    <div id="Container">
-      <div id="header">
+    <nav class="navbar">
+      <div class="col-xs-12">
+        <ul class="list-inline">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div id="header" class="col-xs-12">
         <img src="images/retouch.JPG" alt="headshot">
-        <div id="myInfo">
-          <h1>Megan O'Neill</h1>
-          <h2>Full Stack Developer</h2>
-        </div>
-        <div id="navBar">
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+        <div id="my_info" class="col-xs-12">
+            <h1>Megan O'Neill</h1>
+            <h2>Software Engineer</h2>
+          </div>
         </div>
       </div>
-      <div id="body">
-        <div id="about">
-          <h1>About Me</h1>
-            <p>I'm a full stack developer residing in NYC. When I'm not coding
-               you can find me playing rugby, hiking, snowboarding, and doing just about
-               anything involving the great outdoors.
+      <div class="row about-me">
+        <div class="col-xs-12">
+          <h3>About Me</h3>
+            <p>I'm a software engineer living in NYC. I primarily work with Ruby, dabble in some wordpress/php, and have played around with Java and C. My side projects include building with Little Bits, setting up my Raspberry Pi, and finding ways to contribute to open source code. 
             </p>
-        </div>
-        <div id="skills">
-          <h1>Skills</h1>
-          <ul>
-            <h2>Front End</h2>
-            <li>HTML/CSS</li>
-            <li>Javascript</li>
-            <li>JQuery</li>
-            <li>AJAX</li>
-            <li>Backbone.js</li>
-          </ul>
-          <ul>
-            <h2>Back End</h2>
-            <li>Ruby</li>
-            <li>Ruby on Rails</li>
-            <li>PostgreSQL</li>
-          </ul>
-          <ul>
-            <h2>Management</h2>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Heroku</li>
-            <li>Pivitol Tracker</li>
-            <li>Agile Methodologies</li>
-            <li>Scrum</li>
-          </ul>
-        </div>
-        <div id="projects">
-          <h1>Projects</h1>
-          <a href="http://jamout.herokuapp.com/"><h2>Jamout</h2></a>
-            <p>Jamout is a web application allowing users to easily search for concerts and ticket listings nearby.</p>
-          <a href="http://drink-r.herokuapp.com/"><h2>Drinkr</h2></a>
-            <p>This web application allows users (21 and over) to purchase wine, beer, and spirits online, get it delivered to their door, and even split the cost with their friends</p>
-          <a href="http://rendezvousnyc.herokuapp.com/"><h2>Rendezvous NYC</h2></a>
-            <p>Rendezvous NYC allows users to find events going on in NYC and purchase tickets to those events.</p>
-          <a href="https://rubygems.org/gems/separate_datetime"><h2>Separate Datetime</h2></a>
-            <p>This ruby gems provides two methods to the string class, easily helping you to get the date or time out of a datetime string</p>
-          <a href="http://audioavatar-dev.herokuapp.com/"><h2>Audio Avatar</h2></a>
-            <p>A music visualizer built during for the monthly music hackathon</p>
+            <p>When I'm not coding, you can find me handling one of my three favorite B's: beer, bacon, and bow ties.</p>
         </div>
       </div>
-      <div id="footer">
-        <div id="contact">
-          <a href="https://github.com/oneill38"><img src="images/GitHub-icon.png" alt="GitHub icon with link"></a>
-          <a href="https://www.linkedin.com/in/meganoneill38/"><img id="linkedin" src="images/linkedin.png" alt="linkedin icon with link"></a>
-          <a href="mailto:Megan.Oneill38@gmail.com"><img src="images/email-icon.png" alt="email icon with email address"></a>
+      <div class="footer row">
+        <div class="contact col-xs-12">
+          <a href="https://github.com/oneill38"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/meganoneill38/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+          <a href="mailto:Megan.Oneill38@gmail.com"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
         </div>
       </div>
   </div>
