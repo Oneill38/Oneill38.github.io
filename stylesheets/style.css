@@ -19,6 +19,10 @@ body{
   padding-top: 20px;
 }
 
+.navbar ul a{
+  color: #FF331B;
+}
+
 #my_info{
   text-align: center;
 }
@@ -27,9 +31,17 @@ body{
   margin-top: 0px;
 }
 
+#my_info p a{
+  color: #FF331B;
+}
+
+#my_info p{
+  color: #FF331B;
+}
+
 #header img{
-  max-height: 20%;
-  max-width: 20%;
+  max-height: 30%;
+  max-width: 30%;
   border-radius: 200px;
 }
 
@@ -41,7 +53,19 @@ body{
   margin-bottom: 20px;
 }
 
+.about-me h3 a{
+  color: #FF331B;
+}
+
+.about-me h3{
+    text-align: center;
+}
+
 .footer{
   padding-top: 15px;
   border-top: 1px solid grey;
+}
+
+.footer a{
+  color: #FF331B;
 }
